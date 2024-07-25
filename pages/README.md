@@ -1,10 +1,22 @@
 ## About
 
+This study (Shank3ZZ) utilizes an autism mouse model, Shank3e21-/-, to investigate sex-specific effects in sleep architecture and homeostatic sleep response. This dataset contains polysomnography recordings conducted in a total of 28 adult male and female mice. Recordings are a total of 48 hours and cover 24 hours of baseline, followed by five hours of sleep deprivation and 19 hours of recovery sleep. All data were manually scored via visual inspection as one of three states: non-rapid eye movement sleep, rapid eye movement sleep, or wake. 
+
 ## Methods
+
+Heterzygous Shank3e21-/- and wildtype breeding pairs were established to obtain wildtype (WT) and homozygous Shank3e21-/- littermates. Adult (10-12 week old) male and female mice were used. 
+
+A total of 28 animals were used for surgical procedures. Adult (8-10 weeks old) male and female mice (n = 7 per sex and genotype) were anesthetized and stereotaxically implanted with four electroencephalographic (EEG) and two electromyographic (EMG) electrodes for assessment of sleep-wake behavior as previously described(Medina et al., 2022). Animals were subcutaneously given dexamethasone (1 mg/kg), enrofloxacin (5 mg/kg) and carprofen (5 mg/kg) prior to surgical procedure and for an additional 2 days after surgical procedures for a total of 72 hours. Buprenorphine (0.1/mg/kg) was given following righting after surgical procedures. Briefly, four stainless steel screws (BC‐002MP188, Bellcan International Corp, Hialeah, FL) were placed bilaterally over frontal (two) and parietal (two) cortices, and EMG electrodes were inserted bilaterally into the nuchal muscles. EEG electrode placement was secured with dental cement, the mice were individually housed and allowed a minimum of 5 days of recovery from surgery prior to habituation to the recording environment. Animals were connected to a lightweight, flexible tether and allowed five days to habituate to the tether and recording environment. After habituation, mice underwent 24 hours of undisturbed baseline recordings. Recordings started at lights on (hour 1) and ended at lights on after a total of 48 hours of recordings. The first 24 hours consisted of baseline recording, followed by five hours of sleep deprivation at the beginning of lights on (ZT=0 hour 1, day 2). Sleep deprivation was followed by 19 hours of undisturbed recovery sleep. Sleep deprivation was conducted manually via gently handing, when necessary, animals were gently stroked with a soft brush to ensure animals remained awake. 
+
+EEG and EMG data were collected using custom built electrophysiological amplifiers (IntanTechnologies, RHD amplifier chips) via a lightweight counterbalanced cable. 
+
+Data was manually scored via visual inspection in 4 second resolution (epochs) by an experimenter blinded to conditions. Every epoch was scored as one of three states via the EEG and the Fast Fourier Transform (FFT): wake, non-rapid eye movement sleep (NREM), or rapid eye movement sleep (REMS). 
 
 ## Data overview
 
 ### Polysomnography
+
+The [EDF files](:files_path:/EDF_Files) contain the raw data which include 2 EEG channels, and 1 EMG channel.  Data was converted from a proprietary digital format (.rhd) to European Data Format (.edf) file using custom software and digitized at 250 Hz. Data was then further analyzed and scored using VitalRecorder acquisition software (SleepSign for Animal, Kissei Comtec Co., LTD, Nagano, Japan). EEG and EMG data were high and low band pass filtered at 0.05 and 50 Hz and 15 and 30 Hz, respectively with a Notch filter set to 60 Hz.EEG power analysis was conducted from EEG spectra analysis of 0.5 - 50 Hz. The [CSV files](:files_path:/CSV_Files) provided contain scored every scored epoch along with spectral information for the entire 48 hours. 
 
 ## Access and usage restrictions
 
