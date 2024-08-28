@@ -14,7 +14,7 @@ Data was manually scored via visual inspection in 4 second resolution (epochs) b
 
 ## Data overview
 
-The [EDF files](:files_path:/EDF_Files) contain the raw data which include 2 EEG channels, and 1 EMG channel.  Data was converted from a proprietary digital format (.rhd) to European Data Format (.edf) file using custom software and digitized at 250 Hz. Data was then further analyzed and scored using VitalRecorder acquisition software (SleepSign for Animal, Kissei Comtec Co., LTD, Nagano, Japan). EEG and EMG data were high and low band pass filtered at 0.05 and 50 Hz and 15 and 30 Hz, respectively with a Notch filter set to 60 Hz.EEG power analysis was conducted from EEG spectra analysis of 0.5 - 50 Hz. The [CSV files](:files_path:/CSV_Files) provided contain scored every scored epoch along with spectral information for the entire 48 hours. 
+The [EDF files](:files_path:/EDF_Files) contain the raw data which include 2 EEG channels, and 1 EMG channel.  Data was converted from a proprietary digital format (.rhd) to European Data Format (.edf) file using custom software and digitized at 250 Hz. Data was then further analyzed and scored using VitalRecorder acquisition software (SleepSign for Animal, Kissei Comtec Co., LTD, Nagano, Japan). EEG and EMG data were high and low band pass filtered at 0.05 and 50 Hz and 15 and 30 Hz, respectively with a Notch filter set to 60 Hz.EEG power analysis was conducted from EEG spectra analysis of 0.5 - 50 Hz. The [CSV files](:files_path:/CSV_Files) provided contain every scored epoch along with spectral information for the entire 48 hours. 
 
 The [Shank3ZZ_Annotated_DataCollectionForm (XLSX) file](:files_path:/) provides contextual information about the mice and EDF/CSV filenames.
 
